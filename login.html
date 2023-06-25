@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style> body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+    color: #ffd700; /* Gold */
+  }
+
+  label {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+  }
+
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    margin-top: 5px;
+  }
+
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ffd700; /* Gold */
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #ffd700; /* Gold */
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #ff00ff; /* Neon Pink */
+    color: #fff;
+  }
+
+  #form-container {
+    display: none;
+  }
+
+  #coupon-code-container {
+    margin-top: 20px;
+  }
+
+  #coupon-code {
+    display: inline-block;
+    background-color: #ff00ff; /* Neon Pink */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  #qrcode-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Adjust the height as needed */
+  background-color: #fff; /* Light ink color */
+  padding: 10px;
+}
+
+#qrcode-container canvas {
+  background-color: #ff00ff; /* Violet */
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+  <h2>Login</h2>
+  <form id="login-form">
+    <label for="email">Email:</label>
+    <input type="email" id="email" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" required><br><br>
+    <button type="submit">Login</button>
+  </form>
+
+  <div id="form-container" style="display: none;">
+    <h2>Form</h2>
+    <form id="data-form">
+      <label for="store-name">Store Name:</label>
+      <input type="text" id="store-name" required disabled><br><br>
+      <label for="product">Product:</label>
+      <input type="text" id="product" required><br><br>
+      <label for="amount">Amount:</label>
+      <input type="text" id="amount" required><br><br>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="coupon-code-container">
+        <label for="coupon-code">Coupon Code:</label>
+        <span id="coupon-code"></span>
+    </div>
+  </div>
+  <div id="qrcode-container"></div>
+
+  <!-- Add the Firebase SDK scripts here -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database-compat.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"></script>
+  <script src="./login.js"></script>
+</body>
+</html>

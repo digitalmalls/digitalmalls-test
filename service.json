@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "digitalmalls",
+  "private_key_id": "9e1a2a78ad40411b62c575d5da320b8e421c518b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCoTBe2eGROukAJ\nKW+eCvts8Rv0lpGL2+NYyndvT2Cd2JNb6IFaTp2l5BUt8FhRlRf5qAnqHga7clur\nFxtcsP9yVw1nIFUYP6JEgkvhQt/KvnIfDSu3QLJmnh/cYqcUddjQs/TtZOcfGvLf\nGF/5Ls29FfbC/dT63xB5oXqdPf232BXddDf7D1Yf7D+nfT87qUn5iM8Amymzs0wo\nf3JtS91lSoMQEKghw9ImqLFKlGfBC+nEjGOby6blG0aFaV+CotwiYwrfH6diVBy6\nBtO3yat4GRJeeYN9HJ4dUrgCEu+esg5R81QxZcZNsqFmS0Oz6YKhS3iJsInzalqV\nzciIXZRBAgMBAAECggEACZjpxQRHcZkj0dXu5V4KVZ2IDuYXe5ic9dU5c4O8/nFh\nYWVQW5dWPIWlysxtB+16/Bfn5VXEI+Q/C6IeI4Z9Mb66vx/YFHF8CiC9TaWx9AqR\nYNmQHbOa/Ni9d8SZMzSveiLaB7/oYXTopt3pqrDPZx4Zl+fwYWRPOOVzU+RbK7S3\nWOGpViMcD2qWB3SCEnqrnnEKBzsCxPJIJL+7WzirGYDsQFTDIGa+VII2eoIpbJdx\nVje/TYaOeT4XyK3gQQ9AKVbuSXFtzaRq1PMcyZLnGbWdD5TRoyLO+sZEKbkg/WFr\nTToDW/BnF+CLbyPgYBtSNzoYocy9r499epGeTdUTcQKBgQDfhDte5RlDrpqia4ae\ngN5harHr8BmvmwuNGK4bOmw0V+S60UtSAxHfiUDq11HxooeqmWyVUOrJMBHSTLCO\nVfQyQ+VjbruQAeD7cAOq3jijTIeOZHcCYy5ijoRG8KLMJcsmugxkudFmvHb+WzG2\ntcYYCCgUD+0khkcwgmwqHcEu0QKBgQDAwXeuLCd0VoRwgZgBBJVCRlB+wXkZRtdS\nJa557SUWU1QijTEqFNK3h9I2zFUKvB+aDyQjDsbARnIqNAcEUlN8TqRhmcZh7IFc\nw28TT70s/141dbRrEtYOwRJahAdcJCd9j4hDxUGH47ITNJasxdp6TW0W3ZDLQi9z\n7hpb9HfKcQKBgQC5wUoaDimV7wjCDLx/A7hMm4AsBYlDQIY0B5vCMyZzxcvoWkHP\ncY+sB4Q05ydJunonFISB/xJwiwt0i5l7YQGluHltzjwAbR9NtwTFPxMw20wY0XN6\nP3TwIWLbFecl5A7WK25bU3YsfFoj/yPspVpw5G5yZd3+Kb4GGY3M3peK0QKBgByH\nhhM9bcmGVKviQoFEEGNyzM82C5p2JcB+20golWishLNoenJkCpwnejGqJJwmI/dF\nbm/R7BDhXFxqvu8g0EKB0Uqw2+/6dVspgfM1xiY21dbLyRxf+VbNtM245O36W+31\npJGDTKO0S9MT4YlI74FSnGbZ/GhZL3TVNQmPMXvBAoGAJj9IjYJ53OyqZWRtbivJ\n6gMJnA2i1d7QF/ZDT10mCjw0JSfoFnmCRlPFj3Cvmmhexduylht8U5yNNoXwbt+K\nbomp8yheD8B9/2YEXO9+9woZJeizqlgMsA0hRUmgKocweTfZkiI0zL5nCu/YIE7b\naGLC8EIfP2YFsEfqOARNAdU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-yb6ie@digitalmalls.iam.gserviceaccount.com",
+  "client_id": "102718276022140942498",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-yb6ie%40digitalmalls.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
